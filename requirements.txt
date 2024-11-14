@@ -1,0 +1,10 @@
+streamlit==1.26.0         # For building the interactive UI
+fastapi==0.100.1          # For setting up the FastAPI backend (e.g., API endpoints for agents)
+uvicorn==0.23.1           # ASGI server to run FastAPI
+transformers==4.32.0      # For loading and using transformer models in the agents
+torch==2.0.1              # Required for running transformer models (if using PyTorch)
+neo4j==5.10.0             # For connecting to the Neo4j graph database (Database Agent)
+openai==0.10.0            # For embeddings, if using OpenAI models as part of LLMs
+pandas==2.0.3             # Data handling and organization of research paper data
+requests==2.31.0          # To make HTTP requests for fetching research papers (Search Agent)
+
